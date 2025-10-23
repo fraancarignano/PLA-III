@@ -1,0 +1,6 @@
+@PLA_III_HostAddress = http://localhost:5299
+
+GET {{PLA_III_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
