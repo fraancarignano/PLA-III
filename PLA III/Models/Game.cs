@@ -14,8 +14,8 @@
         // (Opcional) Eliminar esta línea, ya que no representa un dato a persistir
         // public int Attempt { get; set; } 
 
-        public int SecretNumber { get; set; }
-        public string CreateAt { get; set; }
+        public string SecretNumber { get; set; }
+        public DateTime CreateAt { get; set; }
 
         public bool IsFinished { get; set; }
 

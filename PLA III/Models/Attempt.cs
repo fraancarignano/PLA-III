@@ -10,7 +10,7 @@
         // CORRECCIÓN 2: Propiedad de Navegación (Objeto). Debe ser singular.
         public Game Game { get; set; }
 
-        public int AttemptedNumber { get; set; }
+        public string AttemptedNumber { get; set; }
         public int Picas { get; set; }
         public int Famas { get; set; }
         public DateTime AttemptDate { get; set; }

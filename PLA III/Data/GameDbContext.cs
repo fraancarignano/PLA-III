@@ -12,27 +12,25 @@ namespace PLA_III.Data
         {
         }
 
-        // Constructor, DbSets, etc.
+        public DbSet<Player> Players { get; set; }
+        public DbSet<Game> Games { get; set; }
+        public DbSet<Attempt> Attempts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // ... (Configuración de PKs) ...
-
-            // --- Relaciones Uno a Muchos (1:N) ---
-
-            // 1. Relación Player (1) a Game (N): Un juego pertenece a un jugador.
+           
             modelBuilder.Entity<Game>()
-                .HasOne(g => g.Player)          // Correcto: Referencia al OBJETO de navegación (Player)
+                .HasOne(g => g.Player)          
                 .WithMany(p => p.Games)
-                // CORRECCIÓN: Referencia a la PROPIEDAD NUMÉRICA (int) de la FK
+                
                 .HasForeignKey(g => g.PlayerId)
                 .IsRequired();
 
-            // 2. Relación Game (1) a Attempt (N): Un intento pertenece a un juego.
+            
             modelBuilder.Entity<Attempt>()
-                .HasOne(a => a.Game)            // Correcto: Referencia al OBJETO de navegación (Game)
+                .HasOne(a => a.Game)            
                 .WithMany(g => g.Attempts)
-                // CORRECCIÓN: Referencia a la PROPIEDAD NUMÉRICA (int) de la FK
+                
                 .HasForeignKey(a => a.GameId)
                         .IsRequired();
 
