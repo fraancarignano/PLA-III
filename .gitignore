@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/PLA III/CopilotIndices/17.14.878.3237
+/PLA III/bin/Debug/net8.0
+/PLA III/Migrations
