@@ -14,19 +14,7 @@ namespace PLA_III
             // Usamos UseSqlServer, y configuramos el nombre de la BD final
             builder.Services.AddDbContext<GameDbContext>(options =>
                 options.UseSqlServer(
-                    builder.Configuration.GetConnectionString("DefaultConnection"),
-                    sqlServerOptions =>
-                    {
-                        // Esta línea le dice a EF Core: "Cuando crees la base de datos, 
-                        // asegúrate de usar el nombre del catálogo 'PLA_III_FINAL_DB'
-                        // y no el 'master' de la cadena de conexión."
-                        // Esto resuelve la ambigüedad.
-                        sqlServerOptions.MigrationsHistoryTable("__EFMigrationsHistory", "dbo");
-                        // Importante: No podemos forzar directamente el catálogo aquí. 
-                        // La estrategia es asegurarnos de que el nombre del catálogo en 
-                        // appsettings.json sea único y forzar su creación. 
-                        // Volveremos a la configuración de appsettings.json.
-                    }
+                    builder.Configuration.GetConnectionString("DefaultConnection")
                 )
             );
 
@@ -38,6 +26,14 @@ namespace PLA_III
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend",
+                    policy => policy
+                        .WithOrigins("http://localhost:3000", "http://localhost:5173") // Ajusta según tu puerto del front
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            });
 
             var app = builder.Build();
 
@@ -52,6 +48,8 @@ namespace PLA_III
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
+
+            app.UseCors("AllowFrontend");
 
             app.Run();
         }

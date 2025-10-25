@@ -170,3 +170,4 @@ C:\Users\Usuario\Documents\GitHub\PLA-III\PLA III\obj\Debug\net8.0\refint\PLA II
 C:\Users\Usuario\Documents\GitHub\PLA-III\PLA III\obj\Debug\net8.0\PLA III.pdb
 C:\Users\Usuario\Documents\GitHub\PLA-III\PLA III\obj\Debug\net8.0\PLA III.genruntimeconfig.cache
 C:\Users\Usuario\Documents\GitHub\PLA-III\PLA III\obj\Debug\net8.0\ref\PLA III.dll
+C:\Users\Usuario\Documents\GitHub\PLA-III\PLA III\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
