@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "GameController",
+    "Method": "Guess",
+    "RelativePath": "api/game/v1/guess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PLA_III.DataTransferObjects.GuessNumberRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameController",
+    "Method": "Register",
+    "RelativePath": "api/game/v1/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PLA_III.DataTransferObjects.RegisterPlayerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameController",
+    "Method": "Start",
+    "RelativePath": "api/game/v1/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PLA_III.DataTransferObjects.StartGameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

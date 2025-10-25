@@ -18,7 +18,10 @@ namespace PLA_III.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-           
+            modelBuilder.Entity<Player>()
+            .Property(p => p.PlayerId)
+            .ValueGeneratedOnAdd();
+
             modelBuilder.Entity<Game>()
                 .HasOne(g => g.Player)          
                 .WithMany(p => p.Games)
@@ -33,6 +36,8 @@ namespace PLA_III.Data
                 
                 .HasForeignKey(a => a.GameId)
                         .IsRequired();
+            
+            
 
             base.OnModelCreating(modelBuilder);
         }
