@@ -1,91 +1,87 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\",
+  "WorkspaceRootPath": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_VVVV704_SERVIDOR3/JuegoPLA2/True/SqlTable/dbo.Attempts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\datatransferobjects\\registerplayerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\registerplayerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\datatransferobjects\\registerplayerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\registerplayerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\models\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\models\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\datatransferobjects\\guessnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\guessnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\datatransferobjects\\guessnumberrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\guessnumberrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\datatransferobjects\\startgameresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\startgameresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\datatransferobjects\\startgamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\startgamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\data\\gamedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\data\\gamedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\pla iii.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\pla iii.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_VVVV704_SERVIDOR3/JuegoPLA2/True/SqlTable/dbo.Games.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\datatransferobjects\\guessnumberrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\guessnumberrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\datatransferobjects\\guessnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\guessnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\datatransferobjects\\registerplayerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\registerplayerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\datatransferobjects\\registerplayerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\registerplayerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\datatransferobjects\\startgamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\startgamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\datatransferobjects\\startgameresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\datatransferobjects\\startgameresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\migrations\\20251025182826_initialmanualsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\migrations\\20251025182826_initialmanualsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\pla iii.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\pla iii.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_VVVV704_SERVIDOR3/JUEGO/True/SqlTable/dbo.Players.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\models\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\models\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\fraan\\onedrive\\documentos\\github\\pla-iii\\pla iii\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|c:\\users\\usuario\\documents\\github\\pla-iii\\pla iii\\data\\gamedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A7D1BA-84D4-46ED-92AC-E3D1C9602771}|PLA III\\PLA III.csproj|solutionrelative:pla iii\\data\\gamedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Migrations\\20251025182826_InitialManualSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -95,87 +91,57 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GuessNumberResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\GuessNumberResponse.cs",
-              "RelativeDocumentMoniker": "PLA III\\DataTransferObjects\\GuessNumberResponse.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\GuessNumberResponse.cs",
-              "RelativeToolTip": "PLA III\\DataTransferObjects\\GuessNumberResponse.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
+              "Title": "Attempt.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Models\\Attempt.cs",
+              "RelativeDocumentMoniker": "PLA III\\Models\\Attempt.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Models\\Attempt.cs",
+              "RelativeToolTip": "PLA III\\Models\\Attempt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T03:20:12.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GuessNumberRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\GuessNumberRequest.cs",
-              "RelativeDocumentMoniker": "PLA III\\DataTransferObjects\\GuessNumberRequest.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\GuessNumberRequest.cs",
-              "RelativeToolTip": "PLA III\\DataTransferObjects\\GuessNumberRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T03:19:19.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Program.cs",
-              "RelativeDocumentMoniker": "PLA III\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Program.cs",
-              "RelativeToolTip": "PLA III\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:13:25.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StartGameRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\StartGameRequest.cs",
-              "RelativeDocumentMoniker": "PLA III\\DataTransferObjects\\StartGameRequest.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\StartGameRequest.cs",
-              "RelativeToolTip": "PLA III\\DataTransferObjects\\StartGameRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T03:16:12.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Attempts [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_VVVV704_SERVIDOR3/JuegoPLA2/True/SqlTable/dbo.Attempts.sql",
-              "ToolTip": "dbo.Attempts [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-10-25T18:39:12.927Z",
+              "WhenOpened": "2025-10-24T00:45:32.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dbo.Games [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_VVVV704_SERVIDOR3/JuegoPLA2/True/SqlTable/dbo.Games.sql",
-              "ToolTip": "dbo.Games [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-10-25T18:39:31.052Z",
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "PLA III\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Controllers\\GameController.cs",
+              "RelativeToolTip": "PLA III\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAkwKAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T15:08:13.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "RegisterPlayerRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\RegisterPlayerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\RegisterPlayerRequest.cs",
               "RelativeDocumentMoniker": "PLA III\\DataTransferObjects\\RegisterPlayerRequest.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\RegisterPlayerRequest.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\RegisterPlayerRequest.cs",
               "RelativeToolTip": "PLA III\\DataTransferObjects\\RegisterPlayerRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -184,11 +150,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "RegisterPlayerResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\RegisterPlayerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\RegisterPlayerResponse.cs",
               "RelativeDocumentMoniker": "PLA III\\DataTransferObjects\\RegisterPlayerResponse.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\RegisterPlayerResponse.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\RegisterPlayerResponse.cs",
               "RelativeToolTip": "PLA III\\DataTransferObjects\\RegisterPlayerResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,11 +163,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "PLA III\\Services\\GameService.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Services\\GameService.cs",
+              "RelativeToolTip": "PLA III\\Services\\GameService.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAkwMkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:27:31.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GuessNumberResponse.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\GuessNumberResponse.cs",
+              "RelativeDocumentMoniker": "PLA III\\DataTransferObjects\\GuessNumberResponse.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\GuessNumberResponse.cs",
+              "RelativeToolTip": "PLA III\\DataTransferObjects\\GuessNumberResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:20:12.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GuessNumberRequest.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\GuessNumberRequest.cs",
+              "RelativeDocumentMoniker": "PLA III\\DataTransferObjects\\GuessNumberRequest.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\GuessNumberRequest.cs",
+              "RelativeToolTip": "PLA III\\DataTransferObjects\\GuessNumberRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:19:19.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "StartGameResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\StartGameResponse.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\StartGameResponse.cs",
               "RelativeDocumentMoniker": "PLA III\\DataTransferObjects\\StartGameResponse.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\StartGameResponse.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\StartGameResponse.cs",
               "RelativeToolTip": "PLA III\\DataTransferObjects\\StartGameResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -210,75 +215,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GameService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Services\\GameService.cs",
-              "RelativeDocumentMoniker": "PLA III\\Services\\GameService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Services\\GameService.cs",
-              "RelativeToolTip": "PLA III\\Services\\GameService.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAqwNcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "StartGameRequest.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\StartGameRequest.cs",
+              "RelativeDocumentMoniker": "PLA III\\DataTransferObjects\\StartGameRequest.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\DataTransferObjects\\StartGameRequest.cs",
+              "RelativeToolTip": "PLA III\\DataTransferObjects\\StartGameRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T03:27:31.069Z",
+              "WhenOpened": "2025-10-24T03:16:12.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Data\\GameDbContextFactory.cs",
+              "RelativeDocumentMoniker": "PLA III\\Data\\GameDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Data\\GameDbContextFactory.cs",
+              "RelativeToolTip": "PLA III\\Data\\GameDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T00:38:09.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "PLA III\\Controllers\\GameController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Controllers\\GameController.cs",
-              "RelativeToolTip": "PLA III\\Controllers\\GameController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAAAIEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:08:13.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "PLA III\\Models\\Player.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Models\\Player.cs",
-              "RelativeToolTip": "PLA III\\Models\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T00:46:09.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PLA III.csproj",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\PLA III.csproj",
-              "RelativeDocumentMoniker": "PLA III\\PLA III.csproj",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\PLA III.csproj",
-              "RelativeToolTip": "PLA III\\PLA III.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-24T03:10:29.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GameDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Data\\GameDbContext.cs",
-              "RelativeDocumentMoniker": "PLA III\\Data\\GameDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Data\\GameDbContext.cs",
-              "RelativeToolTip": "PLA III\\Data\\GameDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T00:33:55.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\appsettings.json",
               "RelativeDocumentMoniker": "PLA III\\appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\appsettings.json",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\appsettings.json",
               "RelativeToolTip": "PLA III\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-24T00:40:17.197Z",
               "EditorCaption": ""
@@ -286,23 +255,81 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "GameDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Data\\GameDbContext.cs",
+              "RelativeDocumentMoniker": "PLA III\\Data\\GameDbContext.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Data\\GameDbContext.cs",
+              "RelativeToolTip": "PLA III\\Data\\GameDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T00:33:55.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PLA III.csproj",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\PLA III.csproj",
+              "RelativeDocumentMoniker": "PLA III\\PLA III.csproj",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\PLA III.csproj",
+              "RelativeToolTip": "PLA III\\PLA III.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T03:10:29.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Games.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_VVVV704_SERVIDOR3/JuegoPLA2/True/SqlTable/dbo.Games.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_VVVV704_SERVIDOR3/JuegoPLA2/True/SqlTable/dbo.Games.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-25T18:39:31.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Program.cs",
+              "RelativeDocumentMoniker": "PLA III\\Program.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Program.cs",
+              "RelativeToolTip": "PLA III\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T15:13:25.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "PLA III\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Models\\Player.cs",
+              "RelativeToolTip": "PLA III\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T00:46:09.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "20251025182826_InitialManualSetup.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Migrations\\20251025182826_InitialManualSetup.cs",
-              "RelativeDocumentMoniker": "PLA III\\Migrations\\20251025182826_InitialManualSetup.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Migrations\\20251025182826_InitialManualSetup.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Migrations\\20251025182826_InitialManualSetup.cs",
-              "RelativeToolTip": "PLA III\\Migrations\\20251025182826_InitialManualSetup.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Migrations\\20251025182826_InitialManualSetup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T18:28:33.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T18:28:33.615Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "PLA III\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "PLA III\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -312,9 +339,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "IGameService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Services\\IGameService.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Services\\IGameService.cs",
               "RelativeDocumentMoniker": "PLA III\\Services\\IGameService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Services\\IGameService.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Services\\IGameService.cs",
               "RelativeToolTip": "PLA III\\Services\\IGameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -332,38 +359,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Attempt.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Models\\Attempt.cs",
-              "RelativeDocumentMoniker": "PLA III\\Models\\Attempt.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Models\\Attempt.cs",
-              "RelativeToolTip": "PLA III\\Models\\Attempt.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAywAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T00:45:32.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Models\\Game.cs",
+              "DocumentMoniker": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Models\\Game.cs",
               "RelativeDocumentMoniker": "PLA III\\Models\\Game.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\fraan\\OneDrive\\Documentos\\GitHub\\PLA-III\\PLA III\\Models\\Game.cs",
               "RelativeToolTip": "PLA III\\Models\\Game.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA2wBAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T00:44:40.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GameDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Data\\GameDbContextFactory.cs",
-              "RelativeDocumentMoniker": "PLA III\\Data\\GameDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\PLA-III\\PLA III\\Data\\GameDbContextFactory.cs",
-              "RelativeToolTip": "PLA III\\Data\\GameDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T00:38:09.909Z"
             }
           ]
         }
