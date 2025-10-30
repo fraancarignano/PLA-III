@@ -4,9 +4,9 @@ using PLA_III.Models;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
-using PLA_III.DataTransferObjects; // (Asegúrate de tener este using para 'Task')
+using PLA_III.DataTransferObjects; 
 
-// Define la base para todos los endpoints en este controlador
+
 [Route("api/game/v1")]
 [ApiController]
 public class GameController : ControllerBase
@@ -21,54 +21,46 @@ public class GameController : ControllerBase
     }
 
 
-    // 1. Endpoint: POST api/game/v1/register
-    //      Registra un jugador
     [HttpPost("register")]
     public async Task<IActionResult> Register([FromBody] RegisterPlayerRequest request)
     {
         
         _logger.LogInformation("Inicio de solicitud POST /api/game/v1/register para {FirstName}", request.FirstName);
 
-        // Valida si la petición automática gracias a [ApiController]
         if (!ModelState.IsValid)
         {
-            return BadRequest(ModelState); //StatusCode 400 si el DTO no es válido
+            return BadRequest(ModelState); 
         }
 
         try
         {
             var response = await _gameService.RegisterPlayer(request);
 
-            // Validamos la respuesta: 0 = el usuario ya existe (error de negocio)
             if (response.PlayerId == 0)
             {
                
                 _logger.LogWarning("Registro fallido para {FirstName}: El usuario ya existe.", request.FirstName);
-                return BadRequest(new { Message = "Error 400: El usuario ya existe" }); //StatusCode 400
+                return BadRequest(new { Message = "Error 400: El usuario ya existe" }); 
             }
 
            
             _logger.LogInformation("Registro exitoso. PlayerID: {PlayerId}", response.PlayerId);
-            return Ok(response); //StatusCode 200 con el Id del jugador
+            return Ok(response); 
         }
         catch (Exception ex)
         {
            
             _logger.LogError(ex, "Error interno en /api/game/v1/register. Mensaje: {ErrorMessage}", ex.Message);
 
-            // Captura errores internos (ej: problemas de conexión a la DB)
             return StatusCode(500, new { Message = "Error interno del servidor al registrar el jugador." });
         }
 
     }
 
 
-    // 2. Endpoint: POST api/game/v1/start
-    //      Inicializa un nuevo juego para un jugador
     [HttpPost("start")]
     public async Task<IActionResult> Start([FromBody] StartGameRequest request)
     {
-       
         _logger.LogInformation("Inicio de solicitud POST /api/game/v1/start para PlayerID: {PlayerId}", request.PlayerId);
 
         if (!ModelState.IsValid)
@@ -79,39 +71,34 @@ public class GameController : ControllerBase
         try
         {
             var response = await _gameService.StartGame(request);
-
-            // Validamos la respuesta de negocio que viene del servicio
-            if (!string.IsNullOrEmpty(response.Message)) // Si el servicio devolvió un mensaje, es un error
+                        
+            if (!string.IsNullOrEmpty(response.Message) && response.GameId == 0)
             {
-               
-                _logger.LogWarning("Inicio de juego fallido para PlayerID {PlayerId}: {ErrorMessage}", request.PlayerId, response.Message);
-
-                // Error de negocio (jugador no existe)
-                if (response.Message == "Error 404: Jugador no encontrado.")
+                
+                if (response.Message.Contains("NotFound"))
                 {
-                    return NotFound(new { Message = response.Message }); // StatusCode 404
+                     _logger.LogWarning("Inicio de juego fallido para PlayerID {PlayerId}: {ErrorMessage}", request.PlayerId, response.Message);
+
+                    return NotFound(new { Message = "Error 404: Jugador no encontrado." });
                 }
 
-                // Error de negocio general (ej: juego activo)
-                return BadRequest(new { Message = response.Message }); // StatusCode 400
+                
+                return BadRequest(new { response.Message }); 
             }
 
-           
             _logger.LogInformation("Juego iniciado exitosamente. GameID: {GameId} para PlayerID {PlayerId}", response.GameId, response.PlayerId);
-            return Ok(response); // StatusCode 200 con el GameId
 
+            return Ok(response); 
         }
-        catch (Exception ex)
+        catch (Exception)
         {
-            
-            _logger.LogError(ex, "Error interno en /api/game/v1/start. Mensaje: {ErrorMessage}", ex.Message);
+            _logger.LogError("Error interno en /api/game/v1/start. Mensaje: {ErrorMessage}");
 
-            return StatusCode(500, new { Message = "Error interno del servidor con el GameId" });
+            return StatusCode(500, new { Message = "Error interno del servidor al iniciar el juego." });
         }
     }
 
-    // 3. Endpoint: POST api/game/v1/guess
-    //      Procesa un intento de adivinanza
+
     [HttpPost("guess")]
     public async Task<IActionResult> Guess([FromBody] GuessNumberRequest request)
     {
@@ -127,27 +114,23 @@ public class GameController : ControllerBase
         {
             var response = await _gameService.GuessNumber(request);
 
-            // Manejo de errores de negocio desde el servicio
             if (response.Message.StartsWith("Error"))
             {
                 
                 _logger.LogWarning("Intento fallido para GameID {GameId}: {ErrorMessage}", request.GameId, response.Message);
 
-                // Error de negocio (Juego no encontrado)
                 if (response.Message.Contains("404"))
                 {
                     return NotFound(new { Message = "Error 404: Juego no encontrado." });
                 }
 
-                // Error de negocio general (ej: número inválido, juego terminado)
-                return BadRequest(new { Message = response.Message }); // StatusCode 400
+                return BadRequest(new { Message = response.Message }); 
             }
 
            
             _logger.LogInformation("Intento procesado para GameID {GameId}. Mensaje: {Message}", request.GameId, response.Message);
-
-            // Si es OK (devuelve la pista o la felicitación)
-            return Ok(response); //StatusCode 200 con la pista y felicitación
+            
+            return Ok(response); 
         }
         catch (Exception ex)
         {

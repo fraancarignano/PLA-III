@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PLA III")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a41b132356cda71e7facc98333ba3e2269e0e78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f2402c3ed7fa4801e6bb3c96cef9f3fbbdaae62")]
 [assembly: System.Reflection.AssemblyProductAttribute("PLA III")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PLA III")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

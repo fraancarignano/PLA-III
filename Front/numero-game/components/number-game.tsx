@@ -102,7 +102,7 @@ export default function NumberGame() {
     const [currentGuess, setCurrentGuess] = useState<string[]>(["", "", "", ""]);
     const [attempts, setAttempts] = useState<Attempt[]>([]);
     const [gameWon, setGameWon] = useState<boolean>(false);
-    const MAX_ATTEMPTS = 10;
+    //const MAX_ATTEMPTS = 10;
 
     const inputRefs = [
         useRef<HTMLInputElement>(null),
@@ -217,15 +217,13 @@ export default function NumberGame() {
             inputRefs[0].current?.focus();
 
             if (isCorrect) {
-                setGameWon(true);
-                setGameId(null);
-                setStatusMessage('🎉 ¡FELICITACIONES! Has ganado.', false);
-            } else if (attempts.length + 1 >= MAX_ATTEMPTS) {
-                setGameId(null);
-                setStatusMessage(`😭 Juego Terminado. Has agotado los ${MAX_ATTEMPTS} intentos.`, true);
+            setGameWon(true);
+            setGameId(null);
+            setStatusMessage('🎉 ¡FELICITACIONES! Has ganado.', false);
             } else {
-                setStatusMessage(responseMessage, false);
+            setStatusMessage(responseMessage, false);
             }
+
 
         } catch (error) {
             let msg = 'Error al procesar el intento.';
@@ -356,7 +354,6 @@ export default function NumberGame() {
                                     <div className="bg-indigo-100 rounded-lg p-3 mt-3">
                                         <p className="font-semibold text-indigo-900">📊 Reglas:</p>
                                         <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
-                                            <li>Tienes <strong>10 intentos</strong> máximo</li>
                                             <li>Los 4 dígitos deben ser <strong>diferentes</strong></li>
                                             <li>Usa las pistas de Famas y Picas para acercarte</li>
                                         </ul>
@@ -381,9 +378,6 @@ export default function NumberGame() {
                     ) : (
                         <Card className="p-8 lg:p-12 shadow-2xl border-2 border-indigo-500">
                             <div className="space-y-6">
-                                <div className="text-center text-sm font-medium text-gray-600">
-                                    <span>Intento actual: <span className="font-bold text-red-500">{attempts.length + 1}</span> / {MAX_ATTEMPTS}</span>
-                                </div>
                                 <div className="flex gap-3 lg:gap-4 justify-center">
                                     {currentGuess.map((digit, index) => (
                                         <input

@@ -4,10 +4,8 @@
     {
         public int AttemptId { get; set; }
 
-        // CORRECCIÓN 1: Clave Foránea (FK). Nombre estándar para EF Core.
         public int GameId { get; set; }
 
-        // CORRECCIÓN 2: Propiedad de Navegación (Objeto). Debe ser singular.
         public Game Game { get; set; }
 
         public string AttemptedNumber { get; set; }

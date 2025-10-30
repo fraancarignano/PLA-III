@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PLA_III.Data;
-using PLA_III.Services; // Asegúrate de que IGameService y GameService estén en el namespace correcto
+using PLA_III.Services; 
 
 namespace PLA_III
 {
@@ -10,18 +10,17 @@ namespace PLA_III
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // A. Registro del DbContext
-            // Usamos UseSqlServer, y configuramos el nombre de la BD final
+            // Registro del DbContext
             builder.Services.AddDbContext<GameDbContext>(options =>
                 options.UseSqlServer(
                     builder.Configuration.GetConnectionString("DefaultConnection")
                 )
             );
 
-            // B. Registro de Servicios
+            
             builder.Services.AddScoped<IGameService, GameService>();
 
-            // C. Configuración MVC y Swagger
+            
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -37,7 +36,7 @@ namespace PLA_III
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            
             if (app.Environment.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

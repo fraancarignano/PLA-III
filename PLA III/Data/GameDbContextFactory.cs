@@ -13,9 +13,9 @@ namespace PLA_III
         {
             var optionsBuilder = new DbContextOptionsBuilder<GameDbContext>();
 
-            
-            string connectionString = "Server=(localdb)\\mssqllocaldb;Database=PicasFamasDB;Trusted_Connection=True;";
-            
+
+            string connectionString = "Data Source=DESKTOP-VVVV704\\SERVIDOR3;Initial Catalog=JuegoPLA2;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;";
+
             optionsBuilder.UseSqlServer(connectionString); 
 
             return new GameDbContext(optionsBuilder.Options);

@@ -1,14 +1,8 @@
-﻿// Services/GameService.cs
-
-using GameCore;
+﻿using GameCore;
 using Microsoft.EntityFrameworkCore;
 using PLA_III.Data;
-using PLA_III.DataTransferObjects; 
-using PLA_III.Models; 
-using System;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Logging; 
+using PLA_III.DataTransferObjects;
+using PLA_III.Models;
 
 namespace PLA_III.Services
 {
@@ -24,9 +18,7 @@ namespace PLA_III.Services
             _logger = logger; 
         }
 
-        // -----------------------------------------------------------------
-        // Módulo 1: Registro de Jugadores (RegisterPlayer)
-        // -----------------------------------------------------------------
+        // Registro de Jugadores (RegisterPlayer)
         public async Task<RegisterPlayerResponse> RegisterPlayer(RegisterPlayerRequest request)
         {
             var existingPlayer = await _context.Players
@@ -68,9 +60,7 @@ namespace PLA_III.Services
             };
         }
 
-        // -----------------------------------------------------------------
-        // Módulo 2: Inicio de Juego (StartGame)
-        // -----------------------------------------------------------------
+        // Inicio de Juego (StartGame)
         public async Task<StartGameResponse> StartGame(StartGameRequest request)
         {
             var player = await _context.Players.FindAsync(request.PlayerId);
@@ -105,7 +95,7 @@ namespace PLA_III.Services
             var newGame = new Game
             {
                 PlayerId = request.PlayerId,
-                SecretNumber = secretNumber, // STRING
+                SecretNumber = secretNumber, 
                 CreateAt = DateTime.Now,
                 IsFinished = false
             };
@@ -127,12 +117,10 @@ namespace PLA_III.Services
             };
         }
 
-        // -----------------------------------------------------------------
-        // Módulo 3: Intento de Adivinanza (GuessNumber)
-        // -----------------------------------------------------------------
+        
+        // Intento de Adivinanza (GuessNumber)
         public async Task<GuessNumberResponse> GuessNumber(GuessNumberRequest request)
         {
-            // 1. Validación:
             if (!ValidateGuessNumber(request.AttemptedNumber))
             {
                
@@ -164,7 +152,6 @@ namespace PLA_III.Services
                 return new GuessNumberResponse { Message = $"Error: El juego {game.GameId} ya ha finalizado." };
             }
 
-            // 4. Lógica de Picas y Famas
             string numeroSecreto = game.SecretNumber;
             string numeroIntento = request.AttemptedNumber;
 
@@ -173,7 +160,6 @@ namespace PLA_III.Services
             int famas = resultado.Fama;
             string message = $"{picas} Pica{(picas != 1 ? "s" : "")}, {famas} Fama{(famas != 1 ? "s" : "")}";
 
-            // 5. Persistencia del Intento
             var newAttempt = new Attempt
             {
                 GameId = game.GameId,
@@ -189,14 +175,12 @@ namespace PLA_III.Services
                 "AUDITORÍA: Nuevo intento. GameID: {GameId}, PlayerID: {PlayerId}, Intento: {AttemptedNumber}, Picas: {Picas}, Famas: {Famas}",
                 game.GameId, game.PlayerId, newAttempt.AttemptedNumber, newAttempt.Picas, newAttempt.Famas);
 
-            // 6. Validación de Finalización
             if (famas == 4)
             {
                 game.IsFinished = true;
                 _context.Games.Update(game);
-                await _context.SaveChangesAsync(); // Guarda el intento Y la actualización del juego
+                await _context.SaveChangesAsync(); 
 
-                // Obtenemos el conteo total DESPUÉS de guardar el último intento
                 var totalAttempts = await _context.Attempts.CountAsync(a => a.GameId == game.GameId);
 
                 
@@ -206,7 +190,6 @@ namespace PLA_III.Services
 
                 return new GuessNumberResponse
                 {
-                    // ... (respuesta de felicitación)
                     GameId = game.GameId,
                     AttemptedNumber = request.AttemptedNumber,
                     Picas = picas,
@@ -216,11 +199,11 @@ namespace PLA_III.Services
             }
             else
             {
-                await _context.SaveChangesAsync(); // Guarda sólo el nuevo intento
+                await _context.SaveChangesAsync(); 
 
                 return new GuessNumberResponse
                 {
-                    // ... (respuesta de pista)
+                    
                     GameId = game.GameId,
                     AttemptedNumber = request.AttemptedNumber,
                     Picas = picas,
@@ -234,7 +217,6 @@ namespace PLA_III.Services
         // Helpers
         private string GenerateSecretNumber()
         {
-            // ... (tu código helper)
             Random random = new Random();
             var digits = Enumerable.Range(0, 10).ToList();
             var firstDigit = random.Next(1, 10);
@@ -245,10 +227,10 @@ namespace PLA_III.Services
 
         private bool ValidateGuessNumber(string numberString)
         {
-            // ... (tu código helper)
             if (numberString.Length != 4)
                 return false;
-            if (!numberString.All(char.IsDigit) || numberString.StartsWith('0'))
+            if (!numberString.All(char.IsDigit))
+            //if (!numberString.All(char.IsDigit) || numberString.StartsWith('0'))
                 return false;
             return numberString.Distinct().Count() == 4;
         }
